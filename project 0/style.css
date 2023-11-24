@@ -82,6 +82,7 @@ body {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
+    min-width: 70%;
 }
 
 .project0advanced input:focus {
@@ -116,4 +117,12 @@ body {
 #advancedbutton:hover{
     box-shadow: 1px 1px rgb(0 0 0 / 0.2), -1px -1px rgb(0 0 0 / 0.2);
     background-color: #1b6bff;
+}
+
+.inline { 
+    border: 1px solid red;
+    margin:10px;
+    float:left;/*Add float left*/
+    margin :10px;
+    padding-right: 16px;
 }
